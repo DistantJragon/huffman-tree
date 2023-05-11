@@ -72,83 +72,10 @@ def uncompress_string(givenString, givenTable):
             currentBinary = ''
     return finalString
 
-inputText = '''[Verse 1]
-I don't feel it when they talk on me, I won't take it
-Get the fuck from 'round me, let's face it
-You can't dive in this back in my basement
-If you don't get what I'm saying, I'm not changing for you
-Problems, I got too many of 'em
-So I'm running through the days to catch up on 'em, I got plenty of 'em
-No one hates me more than I do
-So I'm the only one that decidin' when the end is coming
+def make_flow_chart():
+    return
 
-[Pre-Chorus]
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-I push myself to the edge
-Feel it in my chest
-None of y'all can stand in my way
-
-[Chorus]
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-I push myself to the edge
-Feel it in my chest
-None of y'all can stand in my way
-I push myself to the edge
-Better come correct when you stand up in my face
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-
-[Verse 2]
-N-Nah you, fuck that you aimin', we bust back
-Won't do representin', we bombin' and trust that
-On my mama, it's a problem whenever we come back
-Y'all don't want that precision, with this it is unmatched, I
-Notice how they look at me
-I run myself right through the walls, I don't worry 'bout that at all
-Understand I'm everything that you couldn't be
-Because I put myself through hell, I'm guessin' that you can tell
-
-[Pre-Chorus]
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-I push myself to the edge
-Feel it in my chest
-None of y'all can stand in my way
-
-[Chorus]
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-I push myself to the edge
-Feel it in my chest
-None of y'all can stand in my way
-I push myself to the edge
-Better come correct when you stand up in my face
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-
-[Bridge]
-Holding myself back
-Hoping I don't crash
-For the last time my hands on my brakes
-None of this shit was planned as my fate
-Run your mouth, get you into your grave
-And none of y'all can stand in my way
-
-[Chorus]
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-I push myself to the edge
-Feel it in my chest
-None of y'all can stand in my way
-I push myself to the edge
-Better come correct when you stand up in my face
-I push myself to the edge
-Lookin' for the end, hopin' this time I won't break
-
-[Outro]
-Hoping this time I won't break'''
+inputText = "[Verse 1]\nI don't feel it when they talk on me, I won't take it\nGet the fuck from 'round me, let's face it\nYou can't dive in this back in my basement\nIf you don't get what I'm saying, I'm not changing for you\nProblems, I got too many of 'em\nSo I'm running through the days to catch up on 'em, I got plenty of 'em\nNo one hates me more than I do So I'm the only one that decidin' when the end is coming\n\n[Pre-Chorus]\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\nI push myself to the edge\nFeel it in my chest\nNone of y'all can stand in my way\n\n[Chorus]\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\nI push myself to the edge\nFeel it in my chest\nNone of y'all can stand in my way\nI push myself to the edge\nBetter come correct when you stand up in my face\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\n\n[Verse 2]\nN-Nah you, fuck that you aimin', we bust back\nWon't do representin', we bombin' and trust that\nOn my mama, it's a problem whenever we come back\nY'all don't want that precision, with this it is unmatched, I\nNotice how they look at me\nI run myself right through the walls, I don't worry 'bout that at all\nUnderstand I'm everything that you couldn't be\nBecause I put myself through hell, I'm guessin' that you can tell\n\n[Pre-Chorus]\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\nI push myself to the edge\nFeel it in my chest\nNone of y'all can stand in my way\n\n[Chorus]\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\nI push myself to the edge\nFeel it in my chest\nNone of y'all can stand in my way\nI push myself to the edge\nBetter come correct when you stand up in my face\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\n\n[Bridge]\nHolding myself back\nHoping I don't crash\nFor the last time my hands on my brakes\nNone of this shit was planned as my fate\nRun your mouth, get you into your grave\nAnd none of y'all can stand in my way\n\n[Chorus]\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\nI push myself to the edge\nFeel it in my chest\nNone of y'all can stand in my way\nI push myself to the edge\nBetter come correct when you stand up in my face\nI push myself to the edge\nLookin' for the end, hopin' this time I won't break\n\n[Outro]\nHoping this time I won't break"
 characterList = []
 characterList = make_character_list(characterList, inputText)
 characterList.sort(reverse=True, key=frequency_sort)
